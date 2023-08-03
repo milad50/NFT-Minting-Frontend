@@ -18,18 +18,18 @@ type Config = {
 }
 
 export const configAtom = atom<Config>({
-  CONTRACT_ADDRESS: '0x181b7df2526dd89ee724145e7937bc5caa077df8',
-  SCAN_LINK: 'https://rinkeby.etherscan.io',
+  CONTRACT_ADDRESS: '0x87BA6fEce1822998EF6F8bF71699090b51408561',
+  SCAN_LINK: 'https://goerli.blockpi.network/v1/rpc/public',
   NETWORK: {
-    NAME: 'Rinkeby',
+    NAME: 'Goerli',
     SYMBOL: 'ETH',
-    ID: 4,
+    ID: 5,
   },
-  NFT_NAME: 'NFT Minting Frontend',
-  SYMBOL: 'NMF',
-  MAX_MINT_AMOUNT: 10,
-  MAX_SUPPLY: 500,
+  NFT_NAME: 'JOHN',
+  SYMBOL: 'JOHN',
+  MAX_MINT_AMOUNT: 10000,
+  MAX_SUPPLY: 100000,
   WEI_COST: 100000000000000,
   GAS_LIMIT: 285000,
-  SITE_NAME: 'NFT Minting Frontend',
+  SITE_NAME: 'JOHN',
 })
